@@ -1,7 +1,12 @@
 body {
     color: #ff38a4;
     background-color: blanchedalmond;
-    font-family: "Didot";
+    font-family: "Didot"; 
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/creampuffbckground.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+        
 
 }
 
@@ -181,4 +186,6 @@ formcentral {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
+
+
