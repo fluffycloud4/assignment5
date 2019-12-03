@@ -1,0 +1,184 @@
+body {
+    color: #ff38a4;
+    background-color: blanchedalmond;
+    font-family: "Didot";
+
+}
+
+li {
+
+    color: #b74b73;
+}
+
+h2 {
+
+    color: #ff65b8;
+
+
+}
+
+
+.centered {
+
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto 0 auto;
+    width: 80%; 
+
+}
+
+.differentfont {
+
+    font-family: sans-serif;
+    color: #7d0693;
+    font-style: oblique;
+}
+
+
+#recipecolor {
+
+
+    color: #d96ba6;
+    margin: 0;
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    font-weight: 500;
+    font-style: italic
+}
+
+.candypink {
+
+    color: #f787d0;
+}
+
+.dessert-font-big {
+
+    font-size: 20px;
+}
+
+#newlist li {
+    
+    color: darkmagenta;
+} 
+
+
+
+
+@media screen and (max-width: 30rem) {
+    h1,
+    nav,
+    header,
+    main,
+    footer,
+    .recipeinfo { 
+  
+        color: darkorchid;
+        flex-direction: column; 
+        flex-wrap:wrap; 
+        justify-content: center;
+        align-items: center;
+    } 
+} 
+
+
+
+.dcontainers {
+    
+    
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around; 
+    align-items: center;
+
+} 
+
+.navigation
+{
+    
+    display: flex; 
+/*    flex-direction: column;*/
+    align-items: center;
+justify-content:center;
+
+} 
+
+a:hover {
+    color:hotpink;
+}
+       
+
+ul {
+    
+    list-style-type: none;
+} 
+
+.opening {
+    
+    display: flex;
+    flex-direction:column;
+    justify-content:center;  
+ 
+} 
+
+
+.stylestyle {
+    
+    display: flex;
+} 
+
+.backgroundcolorc {
+    
+   background-color: white;
+}  
+
+
+footer{
+    
+    display: flex;
+    align-items: center; 
+    justify-content: center
+} 
+
+
+.recipeinfo {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    flex-direction: column;*/
+}
+ 
+
+nav ul li a {
+    
+    padding-right: 10px;
+}
+
+form p {
+    
+    display: flex;
+    
+} 
+
+form label {
+    
+    
+    flex-basis: 33%;
+    
+    
+}
+
+
+form input, textarea, select {
+    
+    
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}  
+
+formcentral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
