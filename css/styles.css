@@ -1,5 +1,5 @@
 body {
-    color: #ff38a4;
+    color: #ffd6ec;
     background-color: blanchedalmond;
     font-family: "Didot"; 
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/creampuffbckground.jpeg);
@@ -12,12 +12,12 @@ body {
 
 li {
 
-    color: #b74b73;
+    color: #ffffff;
 }
 
 h2 {
 
-    color: #ff65b8;
+    color: #ffd6ec;
 
 
 }
@@ -34,7 +34,7 @@ h2 {
 .differentfont {
 
     font-family: sans-serif;
-    color: #7d0693;
+    color: #ffacec;
     font-style: oblique;
 }
 
@@ -42,7 +42,7 @@ h2 {
 #recipecolor {
 
 
-    color: #d96ba6;
+    color: #ffffff;
     margin: 0;
     width: 80%;
     padding: 10px 10px 10px 10px;
@@ -52,7 +52,7 @@ h2 {
 
 .candypink {
 
-    color: #f787d0;
+    color: #ffffff;
 }
 
 .dessert-font-big {
@@ -62,7 +62,7 @@ h2 {
 
 #newlist li {
     
-    color: darkmagenta;
+    color: #ffffff;
 } 
 
 
@@ -76,7 +76,7 @@ h2 {
     footer,
     .recipeinfo { 
   
-        color: darkorchid;
+        color: #fff8fd;
         flex-direction: column; 
         flex-wrap:wrap; 
         justify-content: center;
@@ -107,7 +107,7 @@ justify-content:center;
 } 
 
 a:hover {
-    color:hotpink;
+    color:hotpink; 
 }
        
 
@@ -148,8 +148,8 @@ footer{
     
     
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 /*    flex-direction: column;*/
 }
  
